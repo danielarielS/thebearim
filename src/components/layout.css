@@ -1,0 +1,12 @@
+main {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main image {
+  @media all and (min-width: 48em) {
+    max-width: 80vw;
+  }
+}
